@@ -1,0 +1,17 @@
+<div id="map"></div>
+<div id="controls">
+  <button onclick="setMode('box')">Бокс</button>
+  <button onclick="setMode('splice')">Муфта</button>
+  <button onclick="setMode('cable')">Кабель</button>
+  <select id="cableType">
+    <option value="8">8 волокон</option>
+    <option value="12">12 волокон</option>
+    <option value="24">24 волокна</option>
+  </select>
+</div>
+
+<div id="nameInputContainer" class="hidden">
+  <label for="nodeName">Введите имя:</label>
+  <input type="text" id="nodeName" />
+  <button onclick="saveNodeName()">OK</button>
+</div>
